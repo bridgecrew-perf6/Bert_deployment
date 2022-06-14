@@ -16,7 +16,7 @@ RUN pip3 install sklearn
 RUN pip3 install -U scikit-learn # here I should install a recent version of sklearn in requirements and not install and upgrade
 
 # Step 6: Cloning the repo into the ./home folder
-RUN cd ./home && git clone https://github.com/Liberta-Leasing/Bert_deployment.git
+RUN cd ./home && git clone https://github.com/manaribraheem/Bert_deployment.git
 
 # Step 7: Copy the model in the /home/Bert_deployment folder.
 COPY model.pt ./home/Bert_deployment
