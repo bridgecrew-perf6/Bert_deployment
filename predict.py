@@ -3,7 +3,7 @@ import torch
 import csv
 
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+#from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 
 from transformers import BertTokenizer, BertConfig
