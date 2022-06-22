@@ -13,7 +13,7 @@ ENV TZ=Europe/Paris
 # Step 5: Intalling packages (Should be in the requirements.txt)
 RUN pip3 install -q transformers   # here or dans requirements text SAME
 RUN pip3 install sklearn
-RUN pip3 install -U scikit-learn # here I should install a recent version of sklearn in requirements and not install and upgrade
+# RUN pip3 install -U scikit-learn # here I should install a recent version of sklearn in requirements and not install and upgrade
 
 # Step 6: Cloning the repo into the ./home folder
 RUN cd ./home && git clone https://github.com/manaribraheem/Bert_deployment.git
