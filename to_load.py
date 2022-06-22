@@ -16,4 +16,4 @@ if __name__ == "__main__":
 	model_path = config.MODEL_PATH
 	print(model_path)
 	model = load_model(model_path)
-	model.eval()
+	#model.eval()
